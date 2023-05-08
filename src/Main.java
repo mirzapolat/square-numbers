@@ -8,8 +8,8 @@ public class Main {
         int maxSquare = Integer.parseInt(new BufferedReader(
                 new InputStreamReader(System.in)).readLine());
 
-        if (maxSquare > 46340) {
-            System.out.println("Input too big. Max Value: 46340");
+        if (maxSquare > 46340 || maxSquare < 1) {
+            System.out.println("Invalid input. Max Value: 46340. Min Value: 1");
             return;
         }
 
